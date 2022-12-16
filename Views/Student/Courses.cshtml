@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Courses";
+}
+
+@{
+    List<string> l = (List<string>)ViewData["CoursesList"];
+}
+
+@if (@l==null || @l.Count == 0)
+{
+    <div class="alert alert-info" role="alert" style="margin: 20px">
+        <h1>No Courses found!</h1>
+    </div>
+}
+else{
+<div class="container" style="margin:20px">
+  <h1>Courses</h1>
+  @foreach(string @c in @l){
+     <ul class="list-group">
+       <li class="list-group-item">
+          <a href="/Student/ByCourse/@c">
+              @c
+          </a>
+       </li>
+     </ul>
+  }
+</div>
+}
+

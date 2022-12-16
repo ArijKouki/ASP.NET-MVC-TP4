@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "All students";
+}
+
+@{
+    List<Student> l = (List<Student>)ViewData["studentsList"];
+}
+
+@if (@l==null || @l.Count == 0)
+{
+    <div class="alert alert-info" role="alert" style="margin: 20px">
+        <h1>No students found!</h1>
+    </div>
+}
+else{
+
+<div style="margin: 20px">
+    <div class="row">
+   @foreach (Student @s in @l){
+        <div class="card" style="width: 20rem;">
+            <div class="card-body">
+                <h5 class="card-title"> @s.id) @s.last_name @s.first_name  </h5>
+                <h6 class="card-subtitle mb-2 text-muted"><b>Phone number:</b> @s.phone_number</h6>
+                <h6 class="card-subtitle mb-2 text-muted"><b>University:</b> @s.university</h6>
+                <h6 class="card-subtitle mb-2 text-muted"> <b>Course: </b>@s.course</h6>
+                <h6 class="card-subtitle mb-2 text-muted"> <b>Course: </b>@s.timestamp</h6>
+
+            </div>
+
+        </div>
+
+   }
+   </div>
+</div>
+
+}
