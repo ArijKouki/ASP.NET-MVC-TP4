@@ -1,5 +1,5 @@
 # ASP.NET-MVC-TP4
-![AllStudents](https://user-images.githubusercontent.com/86109233/208185483-5516a6ae-bb12-410c-8e6c-bfedfe55a8c8.png)
-![Courses](https://user-images.githubusercontent.com/86109233/208185492-e01d3f19-77c2-49b8-bd99-96c77b306a09.png)
-![ByCourse](https://user-images.githubusercontent.com/86109233/208185507-c6187d34-73d0-47d2-809d-ac122d88e557.png)
-![NoCourse](https://user-images.githubusercontent.com/86109233/208185525-bf2ca7e0-9510-4d7c-b156-02eb79252fb4.png)
+![allStudents2](https://user-images.githubusercontent.com/86109233/208238718-f738d25e-1be1-404f-8a01-9759a2009396.png)
+![Courses](https://user-images.githubusercontent.com/86109233/208238721-b4c86d8b-dc21-46f2-9bb1-0e4a982e4e0c.png)
+![byCourse2](https://user-images.githubusercontent.com/86109233/208238723-128d5255-b0fb-4abd-944d-1302bd01f32a.png)
+![NoCourse](https://user-images.githubusercontent.com/86109233/208238724-ad3865ca-e746-48a8-971b-f243a4703607.png)
